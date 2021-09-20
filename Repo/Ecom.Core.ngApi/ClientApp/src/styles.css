@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900);
+/*@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";*/
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.clear_button_icon {
+    border: none;
+    background-color: transparent;
+    padding-right: 0;
+}
+.clear_button_icon:hover {
+    color:#694a9e;
+}
+
+::ng-deep .tooltip-inner {
+    background-color: #2cabe3;
+    color:white;
+    border-radius: 10px;
+}
+.report-class .modal-dialog {
+    min-width: 60% !important;
+}
+
+
+
+.iconsContent li svg {
+    float: left;
+    width: 100%;
+    fill: #404041;
+}
+
+.iconsContent li:hover svg {
+    fill: #694a9e;
+}
+
+.iconsContent li {
+    padding-right: 8px;
+    position: relative;
+}
+
+    .iconsContent li:last-child {
+        padding-right: 0;
+    }
+
+    .iconsContent li:after {
+        content: "";
+        width: 1px;
+        height: 70%;
+        background: #343a40;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 9% 0;
+    }
+
+    .iconsContent li:last-child:after {
+        display: none;
+    }
+
+
+

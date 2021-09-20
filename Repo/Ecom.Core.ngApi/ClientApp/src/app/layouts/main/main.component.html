@@ -1,0 +1,76 @@
+
+<nav class="bg-dark navbar navbar-dark navbar-expand-lg py-0 position-absolute w-100" style="z-index:99">
+    <div class="container d-flex flex-wrap">
+        <div class="w-100 d-flex navbar-nav">
+            <a (click)="redirectPortal()" class="ml-auto nav-link initialism pr-0">GO TO MAIN PORTAL</a>
+        </div>
+        <a class="navbar-brand mr-auto" routerLink="/home">ONLINE FORMS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item" *ngIf="givenName">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Welcome, {{givenName}}! <i class="fas fa-user ml-2"></i>
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " (click)="logout()">
+                        <i class="fa fa-power-off m-l-5"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+<nav class="bg-light navbar navbar-expand-lg navbar-light p-0 position-absolute position-relative w-100" style="top: 66px;">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="formSaveNotification" *ngIf="isTimeLabelactive">
+            <span class="align-items-center d-flex" id="clockLoding">
+                All Changes saved at 
+                <svg viewBox="0 0 512 512" class="mx-2" style="width:20px;">
+                    <circle fill="#694A9D" cx="256" cy="256" r="256" />
+                    <g class="clock">
+                        <circle fill="none" cx="256" cy="256" r="256" />
+                        <path fill="#FFFFFF" d="M236,143.343v113.759c0,13.353,10.824,24.176,24.176,24.176c13.352,0,24.176-10.823,24.176-24.176V143.343
+                        c0-13.352-10.824-24.176-24.176-24.176C246.824,119.167,236,129.991,236,143.343" />
+                    </g>
+                    <g class="clock">
+                        <circle fill="none" cx="256" cy="256" r="256" />
+                        <path fill="#FFFFFF" d="M430.816,232.926H260.176c-13.352,0-24.176,10.824-24.176,24.176c0,13.353,10.824,24.176,24.176,24.176
+                        h170.641c13.352,0,24.175-10.823,24.175-24.176C454.991,243.75,444.168,232.926,430.816,232.926" />
+                    </g>
+                    <g class="aniClock">
+                        <circle fill="none" cx="256" cy="256" r="256" />
+                        <path fill="#FFFFFF" d="M236,143.343v113.759c0,13.353,10.824,24.176,24.176,24.176c13.352,0,24.176-10.823,24.176-24.176V143.343
+                        c0-13.352-10.824-24.176-24.176-24.176C246.824,119.167,236,129.991,236,143.343" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 256 256" to="360 256 256" dur="10s" repeatCount="indefinite" />
+                    </g>
+                    <g class="aniClock">
+                        <circle fill="none" cx="256" cy="256" r="256" />
+                        <path fill="#FFFFFF" d="M430.816,232.926H260.176c-13.352,0-24.176,10.824-24.176,24.176c0,13.353,10.824,24.176,24.176,24.176
+                        h170.641c13.352,0,24.175-10.823,24.175-24.176C454.991,243.75,444.168,232.926,430.816,232.926" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 256 256" to="360 256 256" dur="1s" repeatCount="indefinite" />
+                    </g>
+                </svg>
+                <span class="font-weight-bold" id="updatedTime"></span>
+            </span>
+        </div>
+    </div>
+</nav>
+ 
+
+<div class="main">
+    <div class="container" style="padding: 112px 0 0 0">
+        <router-outlet></router-outlet>         
+    </div>
+</div>

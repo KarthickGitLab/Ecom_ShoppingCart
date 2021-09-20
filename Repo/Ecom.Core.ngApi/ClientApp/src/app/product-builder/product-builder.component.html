@@ -1,0 +1,116 @@
+<div class="card mb-3" style="background-color: #f0f1f2;">
+    <h5 class="card-header" style="padding:12px">{{currentIntent}}</h5>
+    <div class="card-body">
+        <form [formGroup]="productForm" (ngSubmit)="addUpdateProduct(product)">
+            <div class="form-row">
+                <div class="form-group col-7">
+                    <label>Name</label>
+                    <input type="text" class="form-control text-dark font-normal bg-white" formControlName="Name"
+                        [(ngModel)]="product.Name" maxlength="200" required />
+                    <small class="form-text text-danger"
+                        *ngIf="!productForm.get('Name').valid && (productForm.get('Name').dirty || productForm.get('Name').touched)">
+                        <i class="fas fa-exclamation-triangle"></i> Enter Valid Product Name
+                    </small>
+                </div>
+                <div class="form-group col-3">
+                    <label>Price ($)</label>
+                    <input type="text" class="form-control text-dark font-normal bg-white" formControlName="Price"
+                        [(ngModel)]="product.Price" min="1.00" max="9999.99" required />
+                    <small class="form-text text-danger"
+                        *ngIf="!productForm.get('Price').valid && (productForm.get('Price').dirty || productForm.get('Price').touched)">
+                        <i class="fas fa-exclamation-triangle"></i> Enter Valid Product Price
+                    </small>
+                </div>
+                <div class="form-group col-2">
+                    <label>SKU Code</label>
+                    <input type="text" class="form-control text-dark font-normal bg-white" formControlName="SkuCode"
+                        [(ngModel)]="product.SkuCode" maxlength="8" readonly required />
+                    <small class="form-text text-danger"
+                        *ngIf="!productForm.get('SkuCode').valid && (productForm.get('SkuCode').dirty || productForm.get('SkuCode').touched)">
+                        <i class="fas fa-exclamation-triangle"></i> Enter Valid Product SKU
+                    </small>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-3">
+                    <label>Image Url</label>
+                    <input type="text" class="form-control text-dark font-normal bg-white" formControlName="ImageUrl"
+                        [(ngModel)]="product.ImageUrl" maxlength="250" required />
+                    <small class="form-text text-danger"
+                        *ngIf="!productForm.get('ImageUrl').valid && (productForm.get('ImageUrl').dirty || productForm.get('ImageUrl').touched)">
+                        <i class="fas fa-exclamation-triangle"></i> Enter Valid Product ImageUrl
+                    </small>
+                </div>
+                <div class="form-group col-3" style="margin-top:35px;">
+                    <label>Is Active </label>
+                    <input type="checkbox" class="text-dark font-normal bg-white" style="margin-left:10px;"
+                        formControlName="IsActive" [(ngModel)]="product.IsActive" />
+                </div>
+            </div>
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary mr-1">{{currentIntent}}</button>
+                <button class="btn btn-secondary" (click)="onClearForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <h5 class="card-header" style="padding:12px">Products List</h5>
+    <div class="card-body">
+
+        <div class="d-flex justify-content-between">
+            <input type="text" placeholder="Search" class="form-control w-auto" [(ngModel)]="csearchTerm" />
+            <select class="custom-select" style="float: right; width: auto" [(ngModel)]="cpageSize">
+                <option [ngValue]="5">5 items per page</option>
+                <option [ngValue]="15">15 items per page</option>
+                <option [ngValue]="50">50 items per page</option>
+            </select>
+        </div>
+
+        <table class="table table-striped border mt-2">
+            <thead>
+                <tr>
+                    <th style="width:20%" scope="col" sortable="Name" (sort)="onSort($event)">Name</th>
+                    <th style="width:20%" scope="col" sortable="SkuCode" (sort)="onSort($event)">Sku Code</th>
+                    <th style="width:30%" scope="col" sortable="ImageUrl" (sort)="onSort($event)">Image Url</th>
+                    <th style="width:10%" scope="col" sortable="Price" (sort)="onSort($event)">Price</th>
+                    <th style="width:10%" scope="col" sortable="IsActive" (sort)="onSort($event)">Is Active</th>
+                    <th style="width:5%" class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr
+                    *ngFor="let item of productList | slice: (cpage-1) * cpageSize : (cpage-1) * cpageSize + cpageSize; let i = index ">
+                    <td>
+                        <ngb-highlight [result]="item.Name" [term]="csearchTerm"></ngb-highlight>
+                    </td>
+                    <td>
+                        <ngb-highlight [result]="item.SkuCode" [term]="csearchTerm"></ngb-highlight>
+                    </td>
+                    <td>
+                        <ngb-highlight [result]="item.ImageUrl" [term]="csearchTerm"></ngb-highlight>
+                    </td>
+                    <td>
+                        <ngb-highlight [result]="item.Price.toLocaleString('en-US', {style: 'currency', currency: 'USD'})" [term]="csearchTerm"></ngb-highlight>
+                    </td>
+                    <td>
+                        <ngb-highlight [result]="item.IsActive" [term]="csearchTerm"></ngb-highlight>
+                    </td>
+                    <td class="text-center">
+                        <a href="javascript: void(0);" (click)="deleteProduct(item)" class="float-right ml-2"
+                            ngbTooltip="Delete"><em class="fa-trash-alt fas"></em></a>
+                        <a href="javascript: void(0);" (click)="editProduct(item)" class="float-right"><em
+                                class="fas fa-edit" ngbTooltip="Edit"></em></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: center;" *ngIf="productList?.length === 0">No Products Found</div>
+        <div class="d-flex justify-content-end p-2">
+            <ngb-pagination [(page)]="cpage" [pageSize]="cpageSize" [collectionSize]="productList?.length" [maxSize]="3"
+                [rotate]="true" [boundaryLinks]="true"></ngb-pagination>
+        </div>
+
+    </div>
+</div>

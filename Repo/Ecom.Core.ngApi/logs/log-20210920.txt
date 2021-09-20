@@ -1,0 +1,2568 @@
+2021-09-20 00:19:04.956 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 00:22:57.495 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 00:22:57.746 +05:30 [Error] Warning: Circular dependency detected:
+src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts
+
+Warning: Circular dependency detected:
+src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jqueryui'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'select2'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jquery'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+2021-09-20 00:23:15.511 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 00:23:16.674 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 00:23:40.754 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 00:23:41.134 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1ws3nlMDAEM7ge696
+2021-09-20 00:23:41.142 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.nJ86cU25ir_Ixq6kUjTuaswnB22yLosdJvFzRPQBQFw"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632077616"},{"ClaimType":"exp","ClaimName":"1632081216"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1ws3nlMDAEM7ge696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12admin@gmail.com"}]@@@@
+2021-09-20 00:23:43.012 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 00:23:43.698 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 00:23:43.700 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 00:28:29.210 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 00:28:55.359 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 00:28:55.605 +05:30 [Error] Warning: Circular dependency detected:
+src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts
+
+Warning: Circular dependency detected:
+src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jqueryui'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jquery'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'select2'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+2021-09-20 00:29:04.115 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 00:29:06.061 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 00:29:06.063 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 00:29:06.064 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:29:16.806 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 01:38:17.425 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 01:38:17.664 +05:30 [Error] Warning: Circular dependency detected:
+src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts
+
+Warning: Circular dependency detected:
+src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts
+
+Warning: Circular dependency detected:
+src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts -> src\app\pages\forms\forms.component.ts -> src\app\pages\forms\shopping-cart-builder\shopping-cart-builder.component.ts
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jqueryui'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'select2'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\templates\template-preview\template-preview.component.ts depends on 'jquery'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+2021-09-20 01:38:25.994 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:38:31.156 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:38:31.256 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:53613/api/log, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:53613/.
+
+The underlying exception message was 'An error occurred while sending the request.'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-20 01:38:31.256 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:53613/api/log, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:53613/.
+
+The underlying exception message was 'An error occurred while sending the request.'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-20 01:38:31.256 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:53613/api/log, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:53613/.
+
+The underlying exception message was 'An error occurred while sending the request.'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-20 01:38:31.256 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:53613/api/log, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:53613/.
+
+The underlying exception message was 'An error occurred while sending the request.'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: The response ended prematurely.
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapWhenMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-20 01:38:32.271 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:43:25.067 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:45:29.498 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:45:35.106 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1wkin2SRSE5Ypk696
+2021-09-20 01:45:35.139 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.9zza0GYJxBPHjiVfmaOMFs0LtdF1Maz8c9M9f6Tl-h8"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632082524"},{"ClaimType":"exp","ClaimName":"1632086124"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1wkin2SRSE5Ypk696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12user@gmail.com"}]@@@@
+2021-09-20 01:45:39.037 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:45:39.389 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:45:39.390 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:46:08.730 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:46:08.785 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:46:08.785 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:46:08.785 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:46:28.228 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:46:28.293 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:46:28.293 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:46:28.294 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:46:29.313 +05:30 [Error] In ProductService.GetAllProducts with exception : System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1023
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 1000
+   at Ecom.Core.Data.Repository.GenericRepository.QueryMultiple[T](String storedProcedureName, DynamicParameters parameters, CommandType commandType) in E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Ecom.Core.Data\Repository\GenericRepository.cs:line 27
+   at Ecom.Core.Domain.Service.ProductService.GetAllProducts() in E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Ecom.Core.Domain\Service\ProductService.cs:line 57
+2021-09-20 01:46:29.605 +05:30 [Error] In ProductController.GetAllProducts with exception : System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1023
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 1000
+   at Ecom.Core.Data.Repository.GenericRepository.QueryMultiple[T](String storedProcedureName, DynamicParameters parameters, CommandType commandType) in E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Ecom.Core.Data\Repository\GenericRepository.cs:line 27
+   at Ecom.Core.Domain.Service.ProductService.GetAllProducts() in E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Ecom.Core.Domain\Service\ProductService.cs:line 57
+   at Ecom.Core.ngApi.Controllers.ProductController.GetProductList() in E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\Controllers\ProductController.cs:line 31
+2021-09-20 01:46:44.335 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:47:12.591 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 01:47:12.665 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1wkin2SRSE5Ypk696
+2021-09-20 01:47:12.666 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.mFXshp9ypC1xjaqLfdD0GOSC4-Yn0iW5erLGij5kv3U"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632082627"},{"ClaimType":"exp","ClaimName":"1632086227"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1wkin2SRSE5Ypk696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12user@gmail.com"}]@@@@
+2021-09-20 01:47:12.740 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:47:12.741 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:47:12.741 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:47:37.029 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:47:37.029 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:47:37.030 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:48:18.238 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 01:48:18.238 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 01:48:18.238 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 01:48:28.929 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:26:29.941 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:27:06.274 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:27:06.507 +05:30 [Error] Error: src/app/app-service.service.ts:20:122 - error TS2304: Cannot find name 'LogService'.
+
+20     constructor(private http: HttpClient, private oauthService: OAuthService, private userInfo: UserInfoService, logger: LogService, @Inject('BASE_URL') baseUrl: string) {
+                                                                                                                            ~~~~~~~~~~
+src/app/layouts/full/full.component.ts:9:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+9 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/layouts/full/full.component.ts:29:40 - error TS2554: Expected 2 arguments, but got 3.
+
+29         super("FullComponent", logger, userInfo);
+                                          ~~~~~~~~
+src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+5 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+
+13         super("AuthGuard", logger, userInfo);
+                                      ~~~~~~~~
+src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+5 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-09-20 02:27:54.013 +05:30 [Error] src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+
+15         super("HomepageComponent", logger, userInfo);
+                                              ~~~~~~~~
+src/app/layouts/main/main.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+5 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/layouts/main/main.component.ts:24:38 - error TS2554: Expected 2 arguments, but got 3.
+
+24       super("MainComponent", logger, userInfo);
+                                        ~~~~~~~~
+src/app/layouts/main/main.component.ts:57:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+
+57             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                    ~~~~
+src/app/layouts/main/main.component.ts:58:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+
+58             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                               ~~~~~~~~~~~~~~~~~~
+src/app/layouts/main/main.component.ts:59:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+
+59                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                        ~~~~
+src/app/layouts/main/main.component.ts:63:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+
+63                     this.error("Main Component - RedirectPortal Exception", err);
+                            ~~~~~
+src/app/layouts/main/main.component.ts:67:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+
+67             throw new this.error("Main Component - RedirectPortal Exception", e);
+                              ~~~~~
+src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+5 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+
+16         super("LoginComponent", logger, userInfo);
+                                           ~~~~~~~~
+src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+3 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+
+11         super("NotfoundComponent", logger, userInfo);
+                                              ~~~~~~~~
+src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+3 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+
+11         super("LockComponent", logger, userInfo);
+                                          ~~~~~~~~
+src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+3 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+
+11         super("LoginComponent", logger, userInfo);
+                                           ~~~~~~~~
+src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+3 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+
+11         super("Login2Component", logger, userInfo);
+                                            ~~~~~~~~
+src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+5 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+
+18         super("SignupComponent", logger, userInfo);
+                                            ~~~~~~~~
+src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+3 import { LogService } from '../../services/log.service';
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+
+11         super("Signup2Component", logger, userInfo);
+                                             ~~~~~~~~
+
+
+
+- Generating browser application bundles...
+
+2021-09-20 02:28:00.237 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:28:00.437 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/layouts/full/full.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\layouts\full'
+
+Error: ./src/app/layouts/main/main.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\layouts\main'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+2021-09-20 02:28:07.426 +05:30 [Error] 
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+    
+
+2021-09-20 02:28:07.428 +05:30 [Error]     Error: src/app/layouts/full/full.component.ts:9:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    9 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/layouts/full/full.component.ts:29:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    29         super("FullComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+2021-09-20 02:28:41.334 +05:30 [Error]     
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:24:38 - error TS2554: Expected 2 arguments, but got 3.
+    
+    24       super("MainComponent", logger, userInfo);
+                                            ~~~~~~~~
+    src/app/layouts/main/main.component.ts:57:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    57             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:58:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    58             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:59:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    59                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:63:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    63                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:67:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    67             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:28:43.887 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:28:44.108 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/layouts/main/main.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\layouts\main'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+
+2021-09-20 02:28:44.852 +05:30 [Error] Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+- Generating browser application bundles...
+
+2021-09-20 02:28:45.734 +05:30 [Error]     Error: src/app/layouts/full/full.component.ts:19:14 - error TS2415: Class 'FullComponent' incorrectly extends base class 'AppBase'.
+      Property 'userInfo' is private in type 'FullComponent' but not in type 'AppBase'.
+    
+    19 export class FullComponent extends AppBase implements OnInit, OnDestroy {
+                    ~~~~~~~~~~~~~
+    src/app/layouts/full/full.component.ts:27:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+    27     constructor(public router: Router, private oauthService: OAuthService, private service: AppService,private userInfo: UserInfoService) {
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    28     }
+       ~~~~~
+    src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+
+2021-09-20 02:28:45.900 +05:30 [Error]     
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:24:38 - error TS2554: Expected 2 arguments, but got 3.
+    
+    24       super("MainComponent", logger, userInfo);
+                                            ~~~~~~~~
+    src/app/layouts/main/main.component.ts:57:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    57             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:58:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    58             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:59:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    59                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:63:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    63                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:67:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    67             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.tsm:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:28:46.046 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/layouts/main/main.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\layouts\main'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+
+2021-09-20 02:28:47.019 +05:30 [Error] Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+    
+
+2021-09-20 02:28:47.023 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:24:38 - error TS2554: Expected 2 arguments, but got 3.
+    
+    24       super("MainComponent", logger, userInfo);
+                                            ~~~~~~~~
+    src/app/layouts/main/main.component.ts:57:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+
+2021-09-20 02:28:53.950 +05:30 [Error]     
+    57             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:58:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    58             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:59:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    59                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:63:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    63                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:67:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    67             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:28:54.710 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:28:54.857 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/layouts/main/main.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\layouts\main'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+
+2021-09-20 02:28:55.883 +05:30 [Error] Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+    
+
+2021-09-20 02:28:55.892 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:24:38 - error TS2554: Expected 2 arguments, but got 3.
+    
+    24       super("MainComponent", logger, userInfo);
+                                            ~~~~~~~~
+    src/app/layouts/main/main.component.ts:57:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+
+2021-09-20 02:29:04.309 +05:30 [Error]     
+    57             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:58:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    58             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:59:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    59                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:63:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    63                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:67:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    67             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:29:05.314 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:29:05.475 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+
+2021-09-20 02:29:06.108 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:22:112 - error TS2304: Cannot find name 'LogService'.
+    
+    22     constructor(private router: Router, private oauthService: OAuthService, userInfo: UserInfoService, logger: LogService, private appservice: AppService) {
+                                                                                                                      ~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:23:38 - error TS2554: Expected 2 arguments, but got 3.
+    
+    23       super("MainComponent", logger, userInfo);
+
+2021-09-20 02:29:20.312 +05:30 [Error]                                             ~~~~~~~~
+    src/app/layouts/main/main.component.ts:56:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    56             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:57:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    57             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:58:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    58                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:62:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    62                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:66:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    66             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:29:21.078 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:29:21.218 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+
+2021-09-20 02:29:22.035 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:14:14 - error TS2415: Class 'MainComponent' incorrectly extends base class 'AppBase'.
+      Property 'userInfo' is private in type 'MainComponent' but not in type 'AppBase'.
+    
+    14 export class MainComponent extends AppBase implements OnInit, OnDestroy {
+                    ~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:22:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+     22     constructor(private router: Router, private oauthService: OAuthService,private userInfo: UserInfoService, private appservice: AppService) {
+
+2021-09-20 02:29:31.559 +05:30 [Error]             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     23       if (this.router.url.indexOf('/forms') > -1) {
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ... 
+     30 
+        
+     31   }
+        ~~~
+    src/app/layouts/main/main.component.ts:23:11 - error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+    
+    23       if (this.router.url.indexOf('/forms') > -1) {
+                 ~~~~
+    src/app/layouts/main/main.component.ts:24:16 - error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+    
+    24                this.isTimeLabelactive = true;
+                      ~~~~
+    src/app/layouts/main/main.component.ts:27:5 - error TS17009: 'super' must be called before accessing 'this' in the constructor of a derived class.
+    
+    27     this.isTimeLabelactive = false;
+           ~~~~
+    src/app/layouts/main/main.component.ts:55:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    55             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:56:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    56             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:57:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    57                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:61:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    61                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:65:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    65             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:29:32.825 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:29:33.034 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+
+2021-09-20 02:29:34.045 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:14:14 - error TS2415: Class 'MainComponent' incorrectly extends base class 'AppBase'.
+      Property 'userInfo' is private in type 'MainComponent' but not in type 'AppBase'.
+    
+    14 export class MainComponent extends AppBase implements OnInit, OnDestroy {
+                    ~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:22:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+    22     constructor(private router: Router, private oauthService: OAuthService,private userInfo: UserInfoService, private appservice: AppService) {
+
+2021-09-20 02:29:37.554 +05:30 [Error]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    23 
+       
+    24 
+       
+    25   }
+       ~~~
+    src/app/layouts/main/main.component.ts:49:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    49             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:50:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    50             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:51:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    51                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:55:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    55                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:59:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    59             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:29:38.433 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:29:38.604 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+
+2021-09-20 02:29:39.349 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/layouts/main/main.component.ts:49:18 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+    
+    49             this.info("Main Component - RedirectPortal", `Calling redirectMainPortal method`);
+                        ~~~~
+    src/app/layouts/main/main.component.ts:50:29 - error TS2339: Property 'redirectMainPortal' does not exist on type 'AppService'.
+    
+    50             this.appservice.redirectMainPortal().subscribe((data: any) => {
+                                   ~~~~~~~~~~~~~~~~~~
+    src/app/layouts/main/main.component.ts:51:22 - error TS2339: Property 'info' does not exist on type 'MainComponent'.
+
+2021-09-20 02:30:00.285 +05:30 [Error]     
+    51                 this.info("Main Component - RedirectPortal", `Received Redirect Main Portal: ${JSON.stringify(data)}`);
+                            ~~~~
+    src/app/layouts/main/main.component.ts:55:26 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    55                     this.error("Main Component - RedirectPortal Exception", err);
+                                ~~~~~
+    src/app/layouts/main/main.component.ts:59:28 - error TS2339: Property 'error' does not exist on type 'MainComponent'.
+    
+    59             throw new this.error("Main Component - RedirectPortal Exception", e);
+                                  ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:30:01.723 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:30:01.881 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+Error: ./src/app/shared/auth/auth.guard.service.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\shared\auth'
+
+
+
+2021-09-20 02:30:02.215 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:13:36 - error TS2554: Expected 2 arguments, but got 3.
+    
+    13         super("AuthGuard", logger, userInfo);
+                                          ~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+2021-09-20 02:30:54.880 +05:30 [Error]     
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:30:55.596 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:30:55.778 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+
+
+2021-09-20 02:30:56.541 +05:30 [Error]     Error: src/app/shared/auth/auth.guard.service.ts:9:14 - error TS2415: Class 'AuthGuard' incorrectly extends base class 'AppBase'.
+      Property 'userInfo' is private in type 'AuthGuard' but not in type 'AppBase'.
+    
+    9 export class AuthGuard extends AppBase implements CanActivate {
+                   ~~~~~~~~~
+    src/app/shared/auth/auth.guard.service.ts:11:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+    11     constructor(private oauthService: OAuthService, private router: Router,private userInfo: UserInfoService) {
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    12 
+       
+    13     }
+       ~~~~~
+    src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+
+2021-09-20 02:30:58.752 +05:30 [Error]     
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:30:59.336 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:30:59.462 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+
+
+2021-09-20 02:31:00.571 +05:30 [Error]     Error: src/app/pages/homepage/homepage.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:15:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    15         super("HomepageComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+2021-09-20 02:31:51.270 +05:30 [Error]     
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:31:52.626 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:31:52.775 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+
+
+2021-09-20 02:31:53.124 +05:30 [Error]     Error: src/app/pages/homepage/homepage.component.ts:11:14 - error TS2415: Class 'HomepageComponent' incorrectly extends base class 'AppBase'.
+      Property 'userInfo' is private in type 'HomepageComponent' but not in type 'AppBase'.
+    
+    11 export class HomepageComponent extends AppBase implements OnInit {
+                    ~~~~~~~~~~~~~~~~~
+    src/app/pages/homepage/homepage.component.ts:13:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+    13     constructor(private router: Router,private userInfo: UserInfoService) {
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    14 
+       
+    15     }
+       ~~~~~
+    src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:3m44 - error TS2554: Expected 2 arguments, but got 3.
+
+2021-09-20 02:32:07.512 +05:30 [Error]     
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:m42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:32:08.135 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:32:08.376 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+Error: ./src/app/pages/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\pages\login'
+
+
+
+2021-09-20 02:32:09.282 +05:30 [Error]     Error: src/app/pages/login/login.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/pages/login/login.component.ts:16:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    16         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    6msrc/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+
+2021-09-20 02:32:29.097 +05:30 [Error]     
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:32:30.983 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:32:31.128 +05:30 [Error] Error: ./src/app/authentication/404/not-found.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\404'
+
+Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:32:31.226 +05:30 [Error]     Error: src/app/authentication/404/not-found.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/404/not-found.component.ts:11:44 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("NotfoundComponent", logger, userInfo);
+                                                  ~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+
+2021-09-20 02:33:05.416 +05:30 [Error]     src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:33:06.359 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:33:06.552 +05:30 [Error] Error: ./src/app/authentication/lock/lock.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\lock'
+
+Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:33:07.105 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/lock/lock.component.ts:11:40 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LockComponent", logger, userInfo);
+                                              ~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+
+2021-09-20 02:33:24.911 +05:30 [Error]     src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:33:25.324 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:33:25.534 +05:30 [Error] Error: ./src/app/authentication/login/login.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login'
+
+Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:33:26.345 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login/login.component.ts:11:41 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("LoginComponent", logger, userInfo);
+                                               ~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-09-20 02:33:48.978 +05:30 [Error]     src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:33:49.855 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:33:49.998 +05:30 [Error] Error: ./src/app/authentication/login2/login2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\login2'
+
+Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:33:51.063 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/login2/login2.component.ts:11:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Login2Component", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+
+2021-09-20 02:34:06.184 +05:30 [Error]                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+- Generating browser application bundles...
+
+2021-09-20 02:34:07.426 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:34:07.617 +05:30 [Error] Error: ./src/app/authentication/signup/signup.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup'
+
+Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:34:08.083 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:5:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    5 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:18:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    18         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+
+2021-09-20 02:34:15.292 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:34:15.892 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:34:16.024 +05:30 [Error] Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:34:17.028 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:16:76 - error TS2304: Cannot find name 'LogService'.
+    
+    16     constructor(private router: Router, userInfo: UserInfoService, logger: LogService) {
+                                                                                  ~~~~~~~~~~
+    src/app/authentication/signup/signup.component.ts:17:42 - error TS2554: Expected 2 arguments, but got 3.
+    
+    17         super("SignupComponent", logger, userInfo);
+                                                ~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+
+2021-09-20 02:34:25.474 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:34:25.921 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:34:26.040 +05:30 [Error] Error: ./src/app/authentication/signup2/signup2.component.ts
+Module not found: Error: Can't resolve '../../services/log.service' in 'E:\Karthick Subramani\E Commerce\Huge Repo\Forms.Zentro.App\Forms.Zentro.Web\ClientApp\src\app\authentication\signup2'
+
+
+
+2021-09-20 02:34:26.957 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:11:43 - error TS2554: Expected 2 arguments, but got 3.
+    
+    11         super("Signup2Component", logger, userInfo);
+                                                 ~~~~~~~~
+    
+
+2021-09-20 02:34:36.963 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:34:38.127 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:34:38.633 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/authentication/signup2/signup2.component.ts:10:5 - error TS2377: Constructors for derived classes must contain a 'super' call.
+    
+    10     constructor(userInfo: UserInfoService) {
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    11     }
+       ~~~~~
+    
+
+2021-09-20 02:34:44.156 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:34:45.452 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:34:46.374 +05:30 [Error]     Error: src/app/authentication/lock/lock.component.ts:3:28 - error TS2307: Cannot find module '../../services/log.service' or its corresponding type declarations.
+    
+    3 import { LogService } from '../../services/log.service';
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+2021-09-20 02:35:59.860 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:36:01.899 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:36:05.090 +05:30 [Error]     Error: src/app/layouts/main/main.component.html:1:1 - error NG8001: 'app-loader' is not a known element:
+    1. If 'app-loader' is an Angular component, then verify that it is part of this module.
+    2. If 'app-loader' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    1 <app-loader></app-loader>
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/layouts/main/main.component.ts:11:16
+        11   templateUrl: './main.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component MainComponent.
+    src/app/app.component.html:2:6 - error NG8001: 'app-spinner' is not a known element:
+    1. If 'app-spinner' is an Angular component, then verify that it is part of this module.
+    2. If 'app-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    2      <app-spinner></app-spinner>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:12:16
+        12   templateUrl: './app.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+    
+
+2021-09-20 02:37:45.822 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:37:47.210 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:37:49.077 +05:30 [Error]     Error: src/app/app.component.html:2:6 - error NG8001: 'app-spinner' is not a known element:
+    1. If 'app-spinner' is an Angular component, then verify that it is part of this module.
+    2. If 'app-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    2      <app-spinner></app-spinner>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:12:16
+        12   templateUrl: './app.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+    
+
+2021-09-20 02:38:11.291 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:38:11.872 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:38:13.496 +05:30 [Error]     Error: src/app/layouts/main/main.component.html:70:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+    
+    70     </div>
+           ~~~~~~
+    
+      src/app/layouts/main/main.component.ts:11:16
+        11   templateUrl: './main.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component MainComponent.
+    src/app/app.module.ts:65:45 - error NG6001: The class 'MainComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    65         BlankComponent, HomepageComponent,  MainComponent,  CartBuilderComponent, CartViewerComponent,TwoDigitDecimaNumberDirective, LoginComponent,
+                                                   ~~~~~~~~~~~~~
+    
+      src/app/layouts/main/main.component.ts:14:14
+        14 export class MainComponent implements OnInit, OnDestroy {
+                        ~~~~~~~~~~~~~
+        'MainComponent' is declared here.
+    src/app/app.component.html:2:6 - error NG8001: 'app-spinner' is not a known element:
+    1. If 'app-spinner' is an Angular component, then verify that it is part of this module.
+    2. If 'app-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    2      <app-spinner></app-spinner>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:12:16
+
+2021-09-20 02:38:30.842 +05:30 [Error]         12   templateUrl: './app.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+    
+- Generating browser application bundles...
+
+2021-09-20 02:38:31.639 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:38:33.879 +05:30 [Error]     Error: src/app/layouts/main/main.component.html:70:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+    
+    70     </div>
+           ~~~~~~
+    
+      src/app/layouts/main/main.component.ts:11:16
+        11   templateUrl: './main.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component MainComponent.
+    src/app/app.module.ts:65:45 - error NG6001: The class 'MainComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    65         BlankComponent, HomepageComponent,  MainComponent,  CartBuilderComponent, CartViewerComponent,TwoDigitDecimaNumberDirective, LoginComponent,
+                                                   ~~~~~~~~~~~~~
+    
+      src/app/layouts/main/main.component.ts:14:14
+        14 export class MainComponent implements OnInit, OnDestroy {
+                        ~~~~~~~~~~~~~
+        'MainComponent' is declared here.
+    src/app/layouts/full/full.component.html:32:17 - error NG8001: 'router-outlet' is not a known element:
+    1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+    2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    32                 <router-outlet></router-outlet>
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-09-20 02:38:48.480 +05:30 [Error]     
+      src/app/layouts/full/full.component.ts:15:18
+        15     templateUrl: "./full.component.html",
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component FullComponent.
+    src/app/app.component.html:2:6 - error NG8001: 'app-spinner' is not a known element:
+    1. If 'app-spinner' is an Angular component, then verify that it is part of this module.
+    2. If 'app-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    2      <app-spinner></app-spinner>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:12:16
+        12   templateUrl: './app.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+    
+- Generating browser application bundles...
+
+2021-09-20 02:38:49.588 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:38:51.411 +05:30 [Error]     Error: src/app/layouts/main/main.component.html:70:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+    
+    70     </div>
+           ~~~~~~
+    
+      src/app/layouts/main/main.component.ts:11:16
+        11   templateUrl: './main.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component MainComponent.
+    src/app/app.module.ts:65:45 - error NG6001: The class 'MainComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    65         BlankComponent, HomepageComponent,  MainComponent,  CartBuilderComponent, CartViewerComponent,TwoDigitDecimaNumberDirective, LoginComponent,
+                                                   ~~~~~~~~~~~~~
+    
+      src/app/layouts/main/main.component.ts:14:14
+        14 export class MainComponent implements OnInit, OnDestroy {
+                        ~~~~~~~~~~~~~
+        'MainComponent' is declared here.
+    src/app/layouts/full/full.component.html:32:17 - error NG8001: 'router-outlet' is not a known element:
+    1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+    2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    32                 <router-outlet></router-outlet>
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2021-09-20 02:39:46.435 +05:30 [Error]     
+      src/app/layouts/full/full.component.ts:15:18
+        15     templateUrl: "./full.component.html",
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component FullComponent.
+    src/app/app.component.html:1:1 - error NG8001: 'router-outlet' is not a known element:
+    1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+    2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    1 <router-outlet>
+      ~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:12:16
+        12   templateUrl: './app.component.html',
+                          ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+    
+- Generating browser application bundles...
+
+2021-09-20 02:39:47.058 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:39:49.162 +05:30 [Error]     Error: src/app/app.module.ts:65:45 - error NG6001: The class 'MainComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    65         BlankComponent, HomepageComponent,  MainComponent,  CartBuilderComponent, CartViewerComponent,TwoDigitDecimaNumberDirective, LoginComponent,
+                                                   ~~~~~~~~~~~~~
+    
+      src/app/layouts/main/main.component.ts:14:14
+        14 export class MainComponent implements OnInit, OnDestroy {
+                        ~~~~~~~~~~~~~
+        'MainComponent' is declared here.
+    src/app/layouts/full/full.component.html:32:17 - error NG8001: 'router-outlet' is not a known element:
+    1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+    2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    32                 <router-outlet></router-outlet>
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/layouts/full/full.component.ts:15:18
+        15     templateUrl: "./full.component.html",
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component FullComponent.
+    src/app/layouts/main/main.component.html:74:9 - error NG8001: 'router-outlet' is not a known element:
+    1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+    2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+2021-09-20 02:41:34.302 +05:30 [Error] - Generating browser application bundles...
+
+2021-09-20 02:42:14.649 +05:30 [Error] ΓêÜ Browser application bundle generation complete.
+
+2021-09-20 02:42:14.840 +05:30 [Error] Warning: Circular dependency detected:
+src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts
+
+Warning: Circular dependency detected:
+src\app\cart-builder\cart-viewer\cart-viewer.component.ts -> src\app\cart-builder\cart-builder.component.ts -> src\app\cart-builder\cart-viewer\cart-viewer.component.ts
+
+
+
+2021-09-20 02:42:25.976 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:42:46.610 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:42:49.715 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:42:50.524 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1ws3nlMDAEM7ge696
+2021-09-20 02:42:50.531 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.nX5uAbMRrKtep0NjKK-GGasLwZ5_vJ-NURBxB3wrIZA"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632085961"},{"ClaimType":"exp","ClaimName":"1632089561"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1ws3nlMDAEM7ge696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12admin@gmail.com"}]@@@@
+2021-09-20 02:42:52.061 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:42:52.326 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:42:52.328 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:42:52.777 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:42:52.886 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1ws3nlMDAEM7ge696
+2021-09-20 02:42:52.886 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.8iAkEhBHUWcJ9WC26ND96qM6rZynw-hMiqmUNK0d9yY"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632085970"},{"ClaimType":"exp","ClaimName":"1632089570"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1ws3nlMDAEM7ge696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12admin@gmail.com"}]@@@@
+2021-09-20 02:42:53.042 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:42:53.042 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:42:53.042 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:42:53.631 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:42:53.632 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:42:53.632 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:43:21.529 +05:30 [Information] In ProductController.AddUpdateProduct
+2021-09-20 02:43:21.532 +05:30 [Information] In ProductService.AddUpdateProduct with param : Ecom.Core.Domain.Models.ProductModel
+2021-09-20 02:43:21.533 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_AddUpdateProduct-StoredProcedure
+2021-09-20 02:43:21.702 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:43:21.702 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:43:21.702 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:43:29.038 +05:30 [Information] In ProductController.GetProductById
+2021-09-20 02:43:29.039 +05:30 [Information] In ProductService.GetProductById
+2021-09-20 02:43:29.039 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductById-StoredProcedure
+2021-09-20 02:43:33.197 +05:30 [Information] In ProductController.AddUpdateProduct
+2021-09-20 02:43:33.197 +05:30 [Information] In ProductService.AddUpdateProduct with param : Ecom.Core.Domain.Models.ProductModel
+2021-09-20 02:43:33.198 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_AddUpdateProduct-StoredProcedure
+2021-09-20 02:43:33.218 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:43:33.218 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:43:33.218 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:43:49.395 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:44:08.295 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:44:08.403 +05:30 [Information] In SettingsController.GetUserSettings Action Method-00u1wkin2SRSE5Ypk696
+2021-09-20 02:44:08.404 +05:30 [Information] @@@@[{"ClaimType":"ver","ClaimName":"1"},{"ClaimType":"jti","ClaimName":"AT.kGBn5eVMPqwiUGdGpERqyiJZg43ziEe1nEgLzdtFPfo"},{"ClaimType":"iss","ClaimName":"https://knilamytestlab12.okta.com/oauth2/default"},{"ClaimType":"aud","ClaimName":"api://default"},{"ClaimType":"iat","ClaimName":"1632086043"},{"ClaimType":"exp","ClaimName":"1632089643"},{"ClaimType":"cid","ClaimName":"0oa1wt9mgIje1Dsce696"},{"ClaimType":"uid","ClaimName":"00u1wkin2SRSE5Ypk696"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"email"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"groups"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"phone"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"profile"},{"ClaimType":"http://schemas.microsoft.com/identity/claims/scope","ClaimName":"openid"},{"ClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier","ClaimName":"testlab12user@gmail.com"}]@@@@
+2021-09-20 02:44:08.481 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:44:08.481 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:44:08.481 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:44:24.902 +05:30 [Information] In ProductController.GetAllProducts
+2021-09-20 02:44:24.902 +05:30 [Information] In ProductService.GetAllProducts
+2021-09-20 02:44:24.902 +05:30 [Information] In QueryMultiple T-dbo.usp_Ecom_GetProductList-StoredProcedure
+2021-09-20 02:44:34.473 +05:30 [Information] In SettingsController.GetGeneralSettings Action Method
+2021-09-20 02:46:01.566 +05:30 [Error] - Generating browser application bundles...
+

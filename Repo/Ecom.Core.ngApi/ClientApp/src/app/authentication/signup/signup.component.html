@@ -1,0 +1,63 @@
+<div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(assets/images/background/login-register.jpg) no-repeat center center;">
+    <div class="auth-box m-3 m-md-0 w-50">
+        <div>
+            <div class="logo">
+                <span class="db"><img src="assets/images/Zentro-Logo.png" alt="logo" /></span>
+                <h5 class="font-medium m-b-20 mt-3">New User Signup</h5>
+            </div>
+            <!-- Form -->
+            <div class="row">
+                <div class="col-12">
+                    <form *ngIf='regularForm' [formGroup]="regularForm" (ngSubmit)="onSubmit()" novalidate>
+                        <div class="floating form-group">                            
+                                <input id="username" class="form-control floating__input" formControlName="username" type="email" placeholder="User Name" required>
+                                <label for="username" class="floating__label" data-content="User Name">                                    
+                                </label>
+                                <small class="form-text text-danger"
+                                       *ngIf="!regularForm.get('username').valid && (regularForm.get('username').dirty || regularForm.get('username').touched)">
+                                    Please enter a valid email!
+                                </small>                            
+                        </div>
+                        <div class="floating form-group">
+                            <input id="password" class="form-control floating__input" formControlName="password" type="password" placeholder="Password" required>
+                            <label for="password" class="floating__label" data-content="Password">
+                            </label>
+                            
+                            <small class="form-text text-danger"
+                                   *ngIf="!regularForm.get('password').valid && (regularForm.get('password').dirty || regularForm.get('password').touched)">
+                                Password
+                                characters length must be between 4 and 24 !
+                            </small>
+                        </div>                        
+                        <div class="floating form-group">
+                            <input id="firstName" class="form-control floating__input" formControlName="firstName" type="text" placeholder="First Name" required>
+                            <label for="firstName" class="floating__label" data-content="First Name">
+                            </label>                           
+                            <small class="form-text text-danger"
+                                   *ngIf="!regularForm.get('firstName').valid && (regularForm.get('firstName').dirty || regularForm.get('firstName').touched)">
+                                First Name is required!
+                            </small>
+                        </div>
+                        <div class="floating form-group">
+                            <input id="lastName" class="form-control floating__input" formControlName="lastName" type="text" placeholder="Last Name" required>
+                            <label for="lastName" class="floating__label" data-content="Last Name">
+                            </label>                            
+                            <small class="form-text text-danger"
+                                   *ngIf="!regularForm.get('lastName').valid && (regularForm.get('lastName').dirty || regularForm.get('lastName').touched)">
+                                Last Name is required!
+                            </small>
+                        </div>
+                        <div class="form-group logo">
+                            <button type="submit" class="btn btn-success btn-raised mr-1"
+                                    >
+                                Submit
+                            </button>
+                            <button type="button" [routerLink]="''" class="btn btn-dark btn-raised">Cancel</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

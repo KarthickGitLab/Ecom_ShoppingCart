@@ -1,0 +1,58 @@
+<a href='javascript:;' style="float:right;" (click)='displayCart(cartViewer)'><em class="fas fa-shopping-cart" style="font-size:30px;"></em> X <span>{{cartItems}}</span></a>
+
+<div class="px-3">
+    <div class="row mt-3 mx-0">
+        <div class="col-lg-3">
+            <h3 class="font-weight-bold primaryTColor">Products :</h3>
+        </div>
+    </div>
+    <div class="row mt-3 mx-0">
+        <div class="col-lg-3">
+            <select id="selPageSize" class="custom-select" style="float: left; width: auto" [(ngModel)]="pageSize" (change)="onChangePageSize($event.target.value)">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="32">32</option>
+            </select>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">
+            <div class="form-label-group">
+                <input required="" maxlength="30" placeholder="Search" class="form-control" [(ngModel)]="csearchTerm" (input)="onSearchProduct($event.target.value)" />
+                <label class="">Search Product</label>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 mx-0 align-items-stretch">
+        <div class="col-lg-3 col-md-4 col-sm-12 px-lg-4 mb-4" *ngFor="let item of productsList | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize;">
+            <div class="bg-white overflow-hidden rounded-10 shadow-md templateCard h-100">
+                <span class="bg-primary category position-absolute px-3 py-1 rounded-sm text-white">{{item.Price.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}}</span>
+                <div class="img-Thumb">
+                    <img class="w-100" src="{{item.ImageUrl}}" />
+                    <a class="float-right previewBtn"><em class="fa-3x fa-search fas text-white mb-2"></em></a>
+                </div>
+                <div class="d-inline-block p-3 text-center w-100">
+                    <h4 class="mb-3">{{item.Name}}</h4>
+                    <p>{{item.SkuCode}}</p>
+                    <a (click)="addProductToCart(item)" class="bg-primary btn btn-sm px-3 text-center text-white">+ Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="productsList?.length < 1" class="w-100">
+            <p style="text-align: center;" class="font-weight-bold h3 my-4 primaryTColor">No Products found</p>
+        </div>
+    </div>
+</div>
+<div class="d-flex justify-content-end p-2" *ngIf="productsList?.length > 0">
+    <ngb-pagination [(page)]="page"
+                    [collectionSize]="productsList?.length || '0'" [maxSize]="3" [pageSize]="pageSize" [rotate]="true" [boundaryLinks]="true">
+    </ngb-pagination>
+</div>
+
+
+<ng-template #cartViewer let-modal>
+    <div class="modal-body">
+        <app-cart-viewer></app-cart-viewer>
+    </div>
+</ng-template>

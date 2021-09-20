@@ -1,0 +1,152 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <TypeScriptExperimentalDecorators>true</TypeScriptExperimentalDecorators>
+    <!-- Set this to true if you enable server-side prerendering -->
+    <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <UserSecretsId>5e5d6aee-ddd1-4b38-9fac-c75be785feb6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.12" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.3.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Okta.AspNetCore" Version="3.5.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="ClientApp\dist\**" />
+    <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\dist\**" />
+    <EmbeddedResource Remove="ClientApp\dist\**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\dist\**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientApp\LibraryModel.cs" />
+    <Compile Remove="Controllers\FormAsyncController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\dist\0-es2015.12847975d0bb01e7a9e1.js" />
+    <None Remove="ClientApp\dist\0-es5.12847975d0bb01e7a9e1.js" />
+    <None Remove="ClientApp\dist\3rdpartylicenses.txt" />
+    <None Remove="ClientApp\dist\ajax-loader.fb6f3c230cb846e25247.gif" />
+    <None Remove="ClientApp\dist\asc-sort-arrow.a8754befcb7a98dc463e.svg" />
+    <None Remove="ClientApp\dist\data-table.40742b4faed98d0250a5.eot" />
+    <None Remove="ClientApp\dist\data-table.53c319729491b7686d65.woff" />
+    <None Remove="ClientApp\dist\data-table.7eda0c04830dac128c76.svg" />
+    <None Remove="ClientApp\dist\data-table.93be7e0fc94594d266a2.ttf" />
+    <None Remove="ClientApp\dist\desc-sort-arrow.a8ec9c079da1a8c5134b.svg" />
+    <None Remove="ClientApp\dist\fa-brands-400.31015e861aeb30ff8355.woff2" />
+    <None Remove="ClientApp\dist\fa-brands-400.3c45c98f6f6c1b009c08.svg" />
+    <None Remove="ClientApp\dist\fa-brands-400.5818bbd07dfd7095920a.ttf" />
+    <None Remove="ClientApp\dist\fa-brands-400.607a77859353c0cc1882.eot" />
+    <None Remove="ClientApp\dist\fa-brands-400.ee26f57bc9e3619b022b.woff" />
+    <None Remove="ClientApp\dist\fa-regular-400.0747be4cba2f8600544f.eot" />
+    <None Remove="ClientApp\dist\fa-regular-400.8b892b7904a39e37c53d.woff" />
+    <None Remove="ClientApp\dist\fa-regular-400.ab47faeab8ddc5f809ec.svg" />
+    <None Remove="ClientApp\dist\fa-regular-400.c3146b3524e97475c094.ttf" />
+    <None Remove="ClientApp\dist\fa-regular-400.c52405129ae48097815d.woff2" />
+    <None Remove="ClientApp\dist\fa-solid-900.18df003f90a7f1313b98.svg" />
+    <None Remove="ClientApp\dist\fa-solid-900.32267f3b4db33a7c85ee.ttf" />
+    <None Remove="ClientApp\dist\fa-solid-900.7eefe04dc985dd4ad38b.eot" />
+    <None Remove="ClientApp\dist\fa-solid-900.9451d5fee89b51a20f8a.woff2" />
+    <None Remove="ClientApp\dist\fa-solid-900.a940d584750708f5435c.woff" />
+    <None Remove="ClientApp\dist\fontawesome-webfont.1e59d2330b4c6deb84b3.ttf" />
+    <None Remove="ClientApp\dist\fontawesome-webfont.20fd1704ea223900efa9.woff2" />
+    <None Remove="ClientApp\dist\fontawesome-webfont.8b43027f47b20503057d.eot" />
+    <None Remove="ClientApp\dist\fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg" />
+    <None Remove="ClientApp\dist\fontawesome-webfont.f691f37e57f04c152e23.woff" />
+    <None Remove="ClientApp\dist\home-wh-bg.140e4a3b2d31fc47928b.png" />
+    <None Remove="ClientApp\dist\left-arrow-hover.c510bce1468eb02da2b2.png" />
+    <None Remove="ClientApp\dist\left-arrow.0db6f621127ae39435a8.png" />
+    <None Remove="ClientApp\dist\main-es2015.cafdea130d540685c0c8.js" />
+    <None Remove="ClientApp\dist\main-es5.cafdea130d540685c0c8.js" />
+    <None Remove="ClientApp\dist\move.ed8c0cf338e2ef834fd1.png" />
+    <None Remove="ClientApp\dist\polyfills-es2015.a7cd99e4c9de2feccb6e.js" />
+    <None Remove="ClientApp\dist\polyfills-es5.b6a1efa26f4123d6bdd6.js" />
+    <None Remove="ClientApp\dist\right-arrow-hover.ab85db64cdc2212f35d6.png" />
+    <None Remove="ClientApp\dist\right-arrow.bd252bd39db7aa845f83.png" />
+    <None Remove="ClientApp\dist\runtime-es2015.dcec09c93e28a8b771fd.js" />
+    <None Remove="ClientApp\dist\runtime-es5.dcec09c93e28a8b771fd.js" />
+    <None Remove="ClientApp\dist\scripts.c4334031797a861eba99.js" />
+    <None Remove="ClientApp\dist\slick.2630a3e3eab21c607e21.svg" />
+    <None Remove="ClientApp\dist\slick.295183786cd8a1389865.woff" />
+    <None Remove="ClientApp\dist\slick.a4e97f5a2a64f0ab1323.eot" />
+    <None Remove="ClientApp\dist\slick.c94f7671dcc99dce43e2.ttf" />
+    <None Remove="ClientApp\dist\sort-arrow.ceb1828077c46da5c1a3.svg" />
+    <None Remove="ClientApp\dist\sort_asc.4bba59196d7ce2619696.png" />
+    <None Remove="ClientApp\dist\sort_asc_disabled.07c018ae0160704a3290.png" />
+    <None Remove="ClientApp\dist\sort_both.8b117faa9d4dd934d6bb.png" />
+    <None Remove="ClientApp\dist\sort_desc.c4196d3286cc33244c83.png" />
+    <None Remove="ClientApp\dist\sort_desc_disabled.27ac5d1bc294b1fae056.png" />
+    <None Remove="ClientApp\dist\styles.828818a14de4abf0c47f.css" />
+    <None Remove="ClientApp\dist\text.04265fadcadd47fa9756.svg" />
+    <None Remove="ClientApp\dist\ui-icons_444444_256x240.a4a8691ca395136aee47.png" />
+    <None Remove="ClientApp\dist\ui-icons_555555_256x240.0d6de499db574dd313c1.png" />
+    <None Remove="ClientApp\dist\ui-icons_777620_256x240.e084661154ad58415fa1.png" />
+    <None Remove="ClientApp\dist\ui-icons_777777_256x240.853909d9945e29dd80d5.png" />
+    <None Remove="ClientApp\dist\ui-icons_cc0000_256x240.dc29114100c22b4660e3.png" />
+    <None Remove="ClientApp\dist\ui-icons_ffffff_256x240.1e360be5458b462df279.png" />
+    <None Remove="ClientApp\src\app\pages\recaptchaDirective.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\src\app\core\pipes\" />
+    <Folder Include="logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecom.Core.Domain\Ecom.Core.Domain.csproj" />
+    <ProjectReference Include="..\Ecom.Core.Helper\Ecom.Core.Helper.csproj" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --prod" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**" />
+      <DistFiles Include="$(SpaRoot)node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>
